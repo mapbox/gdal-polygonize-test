@@ -8,6 +8,7 @@ For comparison two additional methods can be used wherein the original raster is
 
 ### Sample raster
 The provided sample is a 4224x4224 tif that was produced first by running `gdaldem hillshade` and then reducing the colors to 2 using graphicsmagick, resulting in a binary black and white image (0 or 255).
+![](https://cloud.githubusercontent.com/assets/843058/6859455/476fe9ba-d3d6-11e4-8f3e-4445e0396f13.jpg)
 
 ### Results
 
