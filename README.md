@@ -10,7 +10,9 @@ For comparison two additional methods can be used wherein the original raster is
 The provided sample is a 4224x4224 tif that was produced first by running `gdaldem hillshade` and then reducing the colors to 2 using graphicsmagick, resulting in a binary black and white image (0 or 255).
 
 ### Results
+
 Latest results (using GDAL 1.11.1)
+
 method | total time
 ----- | -----
 single | 39.359s
@@ -19,12 +21,12 @@ parallel | 2.957s
 
 
 ### Dependencies
-- GDAL 1.11+
+- GDAL >= 1.11.1
 
-### Installing on OSX
+Installing on OSX:
 `brew install gdal`
 
-### Installing on Ubuntu
+Installing on Ubuntu:
 `apt-get install gdal-bin`
 
 ### Running the test
