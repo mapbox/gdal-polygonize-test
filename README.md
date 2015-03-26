@@ -24,9 +24,11 @@ parallel | 2.957s
 - GDAL >= 1.11.1
 
 Installing on OSX:
+
 `brew install gdal`
 
 Installing on Ubuntu:
+
 `apt-get install gdal-bin`
 
 ### Running the test
