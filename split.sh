@@ -6,8 +6,8 @@ xtiles=$2
 ytiles=$3
 
 # get raster bounds
-ul=($(gdalinfo 11_1444_804.tif | grep '^Upper Left' | sed -e 's/[a-zA-Z ]*(//' -e 's/).*//' -e 's/,/ /'))
-lr=($(gdalinfo 11_1444_804.tif | grep '^Lower Right' | sed -e 's/[a-zA-Z ]*(//' -e 's/).*//' -e 's/,/ /'))
+ul=($(gdalinfo $raster | grep '^Upper Left' | sed -e 's/[a-zA-Z ]*(//' -e 's/).*//' -e 's/,/ /'))
+lr=($(gdalinfo $raster | grep '^Lower Right' | sed -e 's/[a-zA-Z ]*(//' -e 's/).*//' -e 's/,/ /'))
 
 xmin=${ul[0]}
 xsize=$(echo "${lr[0]} - $xmin" | bc)
