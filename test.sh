@@ -12,8 +12,8 @@ OPTIONS:
 -m {all|single|serial|parallel}
     Processing method.
     single = process whole raster file
-    serial = split raster (2x2) processed one-at-a-time
-    parallel = split raster (2x2) processed all at once
+    serial = split raster (8x8) processed one-at-a-time
+    parallel = split raster (8x8) processed all at once
     all = all of the above (default)
 "
 }
