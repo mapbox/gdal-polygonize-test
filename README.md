@@ -23,7 +23,9 @@ parallel | 2.957s
 
 
 ### Dependencies
-- GDAL >= 1.11.1
+
+ - GDAL >= 1.11.1
+ - Python 2.7
 
 Installing on OSX:
 
