@@ -50,7 +50,7 @@ function get_opts() {
 # test single file
 function single_file() {
     gdal_polygonize.py -q \
-        input/${INPUT}.vrt -f "ESRI Shapefile" \
+        $RASTER -f "ESRI Shapefile" \
         ${OUTPUT}.shp
 }
 
