@@ -11,10 +11,10 @@ OPTIONS:
     Display this help message.
 -m {all|single|serial|parallel}
     Processing method.
-    single = process whole raster file
+    single = process whole raster file (default)
     serial = split raster (8x8) processed one-at-a-time
     parallel = split raster (8x8) processed all at once
-    all = all of the above (default)
+    all = all of the above
 "
 }
 
